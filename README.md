@@ -62,7 +62,7 @@ Invoke-HardenSysvol -ExportCSV C:\temp\export.csv
 Simply unzip the module files to `C:\Users\<YourUsername>\Documents\WindowsPowerShell\Modules\`.  
 If the **Modules** folder doesn’t exist, create it manually.
 
-### Execution Policy Error (Windows 10)
+### Execution Policy Error (Windows 10, 11)
 If you encounter an execution policy error on Windows 10, run the following command to bypass it temporarily:
 ```powershell
 powershell.exe -ExecutionPolicy Bypass Invoke-hardensysvol
